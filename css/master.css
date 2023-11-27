@@ -430,3 +430,64 @@ body {
   color: #777;
 }
 /* end about  */
+
+/* start Contact */
+.contact {
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
+  background-color: var(--section-color);
+}
+
+.contact .info {
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
+  text-align: center;
+}
+
+.contact .info .label {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--secondary-color);
+  letter-spacing: -2px;
+  margin-bottom: 15px;
+}
+
+.contact .info .link {
+  display: block;
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.contact .info .social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.contact .info .social i {
+  margin-left: 10px;
+  color: var(--secondary-color);
+}
+@media (max-width: 767px) {
+  .contact .info .link,
+  .contact .info .label {
+    font-size: 25px;
+  }
+}
+/* end Contact */
+/* start footer */
+.footer {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.footer span {
+  font-weight: bold;
+  color: var(--main-color);
+}
+/* end footer */
